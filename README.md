@@ -1,0 +1,2 @@
+# SpectreFinance
+Finance Blog
