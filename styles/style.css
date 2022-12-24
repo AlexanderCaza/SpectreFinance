@@ -24,6 +24,7 @@ header {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	border-bottom: black solid 0.15em;;
 }
 
 header h1 {
@@ -37,12 +38,12 @@ header h1 {
 nav {
 	width: fill;
 	height: 3em;
-	line-height: 3em;
 	background: gray;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 5em;
 	z-index: 2;
+	border-bottom: 0.2em solid black;
 }
 
 main {
@@ -172,11 +173,12 @@ main img {
 .dropbtn {
 	background-color: #3e8e41;
 	color: white;
+	height: 3em;
 	padding: 1em;
 	font-size: 1em;
-	border: none;
 	cursor: pointer;
 	min-width: 15em;
+	border: 0px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -200,16 +202,15 @@ main img {
 .dropdown-content a {
 	color: white;
 	width: inherit;
-	padding-right: 1em;
-	padding-left: 1em;
-	border-top: #000000, solid, 3px;
-	background: #2f7431;
+	padding: 1em;
+	background: #4eb151;
 	text-decoration: none;
 	display: block;	
+	border-top: black solid 0.1em;;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #46a049}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -218,7 +219,7 @@ main img {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-	background-color: #3e8e41;
+	background-color: #367c39;
 }
 
 .container {
