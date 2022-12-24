@@ -11,24 +11,26 @@ body {
 }
 
 #wrapper {
-	width: 1200px;
+	width: 90%;
 	margin: 0px auto;
-	background: black;
 	border: 5px solid #000000;
 }
 
 header {
-	width: 1200px;
-	height: 240px;
-	line-height: 240px;
-	background: url("images/sunset.jpg");
-	background-size: cover;
-	text-align: center;
+	width: 100%;
+	height: 5em;
+	line-height: 5em;
+	background: #202020;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 header h1 {
-	color: black;
-	font-size: 120px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 3em;
 	font-family: 'Tai Heritage Pro', serif, arial;
 }
 
@@ -40,7 +42,7 @@ nav {
 	position: -webkit-sticky;
 	position: sticky;
 	border-bottom: 5px solid #8585ad;
-	top: 0;
+	top: 5em;
 	z-index: 2;
 }
 
@@ -75,11 +77,10 @@ nav ul li a:hover {
 }
 
 main {
-	width: 1200px;
+	width: 100%;
 	float: left;
 	display: flex;
 	line-height: 2em;
-	margin-bottom: 20px;
 }
 
 p {
@@ -121,60 +122,20 @@ main p a:hover {
 }
 
 footer {
-	width: 1150px;
-	height: 250px;
+	width: fill;
+	height: 5em;
 	padding: 25px 25px;
-	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
-	margin-top: 20px;
-	border-radius: 5px;
-	line-height: 2em;
+	background-color: #202020;
 	text-align: left;
+	vertical-align: middle;
+	color: white;
 	clear: both;
 }
 
 footer h3 {
-	color: black;
-	font-size: 40px;
-	padding-bottom: 50px;
-}
-
-footer h4 {
+	color: rgb(240, 240, 240);
+	font-size: 1em;
 	font-family: arial, verdana, Times New Roman;
-	font-size: 24px;
-}
-
-footer h4 span {
-	border-bottom: 4px solid black;
-}
-
-footer ul {
-	list-style-type: none;
-	padding-top: 5px;
-}
-
-footer ul li {
-	background: url("images/arrow.png");
-	background-repeat: no-repeat;
-	background-position: 0px 5px;
-	padding-left: 25px;
-	background-size: 20px;
-}
-
-footer ul li a {
-	font-family: arial, verdana, Times New Roman;
-	border-left: 5px;
-	color: black;
-	font-size: 18px;
-	text-decoration: none;
-}
-
-footer ul a:hover {
-	border-left: 5px;
-	color: black;
-	font-size: 18px;
-	text-decoration: underline;
-	text-decoration-thickness: 3px;
-	transition: text-decoration 0.5s;
 }
 
 main h2 {
@@ -206,32 +167,11 @@ main img {
 	margin-top: 15px;
 }
 
-pre {
-	height: 400px;
-}
-
-#leftcontent {
-	width: 400px;
+#maincontent {
+	width: 100%;
 	background: #e6e6e6;
 	padding: 25px 25px;
 	float: left;
-	border-bottom-left-radius: 5px;
-}
-
-#rightcontent {
-	width: 800px;
-	background: lightgray;
-	padding: 25px 25px;
-	float: left;
-	border-bottom-right-radius: 5px;
-}
-
-#nopaddingtop {
-	padding-top: 0px;
-}
-
-#nopaddingbottom {
-	padding-bottom: 0px;
 }
 
 #active a {
@@ -246,8 +186,17 @@ pre {
 	transition: color 1s;
 }
 
-#portfoliobottom {
-	margin-bottom: 25px;
+.logowhite {
+	color: white;
+	display: inline;
+	padding-right: 0.5em;
+	font-family: Proxima Nova;
+}
+
+.logogreen {
+	color: #20c20f;
+	display: inline;
+	font-family: Proxima Nova;
 }
 
 .container {
@@ -297,3 +246,4 @@ pre {
   text-align: center;
   z-index: 1;
 }
+
