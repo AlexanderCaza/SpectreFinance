@@ -2,10 +2,10 @@
 
 h1, h2, h3 {padding-bottom: 2em;}
 
-main ul {margin-left: 25px;}
+main ul {margin-left: 0px;}
 
 body {
-	background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+	background-color: #596164;
 	background-size: cover;
 	scroll-behavior: smooth;
 }
@@ -28,7 +28,6 @@ header {
 }
 
 header h1 {
-	font-size: 20px;
 	font-weight: bolder;
 	text-align: center;
 	font-size: 3em;
@@ -192,7 +191,6 @@ main img {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
-	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	min-width: 15em;
@@ -222,13 +220,6 @@ main img {
 	background-color: #367c39;
 }
 
-.container {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-}
-
 .image {
 	display: block;
 	border: 0px;
@@ -252,11 +243,6 @@ main img {
 	z-index: 1;
 }
 
-.container:hover .overlay {
-	opacity: 1;
-	z-index: 1;
-}
-
 .text {
 	color: white;
 	font-size: 20px;
@@ -270,3 +256,34 @@ main img {
 	z-index: 1;
 }
 
+@media only screen and (max-width: 60em) { 
+    /* ruleset for >= 60em */
+	#wrapper {
+		width: 100%;
+	}
+
+	header h1 {
+		font-size: 2.5em;
+	}
+
+	nav {
+		height: fit-content;
+		width: 100%;
+		background: black;
+	}
+
+	.dropdown {
+		display: block;	
+	}
+
+	.dropbtn {
+		font-size: 1em;
+		width: 100%;
+		margin-top: 1px;
+	}
+
+	.dropdown-content {
+		font-size: 1em;
+		width: 100%;
+	}
+}
