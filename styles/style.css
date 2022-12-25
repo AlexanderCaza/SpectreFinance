@@ -50,6 +50,8 @@ main {
 	float: left;
 	display: flex;
 	line-height: 2em;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 p {
@@ -108,8 +110,7 @@ footer h3 {
 }
 
 main h2 {
-	text-align: center;
-	padding: 0px 0px 10px 0px;
+	text-align: left;
 }
 
 main h2 span {

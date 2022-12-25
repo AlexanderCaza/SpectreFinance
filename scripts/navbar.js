@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
         <nav>
             <ul>
                 <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">News Articles</button>
+                    <button onclick="myFunction()" class="dropbtn">Articles</button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
@@ -16,7 +16,7 @@ class Navbar extends HTMLElement {
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">Company Highlights</button>
+                    <button onclick="myFunction()" class="dropbtn">Company Analysis</button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
@@ -26,7 +26,7 @@ class Navbar extends HTMLElement {
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Monthly Stock Picks</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Link 1</a>
+                        <a href="https://spectrefinance.org/pages/monthly-picks/january2023.html">Link 1</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
