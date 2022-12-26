@@ -521,11 +521,8 @@ footer h3 {
 	margin-top: 15px;
 }
 
-#maincontent #articleinfo h2 {
+#maincontent #articleinfo h1 {
 	line-height: 1.5em;
-}
-
-#maincontent #articleinfo h2 {
 	text-align: left;
 	font-size: 2.5em;
 	font-weight: bolder;
