@@ -26,7 +26,7 @@ class Navbar extends HTMLElement {
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Monthly Stock Picks</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="https://spectrefinance.org/pages/monthly-picks/january2023.html">Link 1</a>
+                        <a href="https://spectrefinance.org/pages/monthly-picks/january2023.html">January 2023</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
