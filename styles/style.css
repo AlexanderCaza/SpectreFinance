@@ -510,6 +510,9 @@ footer h3 {
 	padding-bottom: 3%;
 	padding-right: 5%;
 	padding-left: 5%;
+	box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
 }
 
 #maincontent .articleinfo {
