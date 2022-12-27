@@ -441,31 +441,32 @@ body {
 
 header {
 	width: 100%;
-	height: 5em;
-	line-height: 5em;
+	height: 5rem;
+	line-height: 5rem;
 	background: #202020;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	border-bottom: black solid 0.15em;;
+	border-bottom: black solid 0.15rem;;
 }
 
 header h1 {
 	font-weight: bolder;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3rem;
 	font-family: 'Tai Heritage Pro', serif, arial;
 }
 
 nav {
 	width: fill;
-	height: 3em;
+	height: 3rem;
 	background: gray;
 	position: -webkit-sticky;
 	position: sticky;
-	top: 5em;
+	top: 5rem;
 	z-index: 2;
-	border-bottom: 0.2em solid black;
+	border-bottom: 0.2rem solid black;
+	font-family: arial, verdana, Times New Roman;
 }
 
 main {
@@ -478,38 +479,70 @@ main {
 
 p {
 	font-family: arial, verdana, Times New Roman;
-	font-size: 16px;
-	padding-bottom: 25px;
 }
 
 footer {
 	width: fill;
-	height: 5em;
-	padding: 25px 25px;
+	height: 5rem;
+	padding: 3% 5% 3% 5%;
 	background-color: #202020;
 	text-align: left;
 	vertical-align: middle;
 	color: white;
 	clear: both;
+	border-top: black solid 5px;
 }
 
 footer h3 {
 	color: rgb(240, 240, 240);
-	font-size: 1em;
+	font-size: 1rem;
 	font-family: arial, verdana, Times New Roman;
-	padding-bottom: 2em;
+	padding-bottom: 2rem;
 }
 
 #maincontent {
     width: 90%;
-	background: #e6e6e6;
+	background: #ffffff;
 	float: left;
 	vertical-align: top;
-	line-height: 2em;
+	margin-left: 0;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	padding-right: 5%;
 	padding-left: 5%;
+}
+
+#maincontent .articleinfo {
+	margin-bottom: 1rem;
+}
+
+#maincontent .articleinfo h1 {
+	line-height: 2.5rem;
+	text-align: left;
+	font-size: 2.5rem;
+	font-weight: 900;
+	padding-bottom: 0.2rem;
+}
+
+#maincontent .articleinfo h4 {
+	text-align: left;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	font-weight: 400;
+	color: rgb(144, 144, 144);
+}
+
+#maincontent h2 {
+	font-size: 1.75rem;
+	line-height: 2.5rem;
+	font-weight: 600;
+	padding-bottom: 0.25rem;
+}
+
+#maincontent .stockpicks p {
+	font-size: 1rem;
+	line-height: 1.75rem;
+	padding-bottom: 1.5rem;
 }
 
 #maincontent img {
@@ -519,22 +552,6 @@ footer h3 {
 	padding: 0px;
 	border: 5px solid #8585ad;
 	margin-top: 15px;
-}
-
-#maincontent #articleinfo h1 {
-	line-height: 1.5em;
-	text-align: left;
-	font-size: 2.5em;
-	font-weight: bolder;
-	padding: 0.2em;
-}
-
-#maincontent #articleinfo h4 {
-	text-align: left;
-	font-size: 0.8em;
-	line-height: 1em;
-	color: gray;
-	font-weight: 400;
 }
 
 #maincontent h3 {
@@ -568,15 +585,13 @@ footer h3 {
 #maincontent p a {
 	color: black;
 	text-decoration: none;
-	font-weight: bold;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 }
 
 #maincontent p a:hover {
 	color: black;
 	text-decoration: none;
-	font-weight: bold;
-	border-bottom: 5px solid black;
+	border-bottom: 3px solid black;
 }
 
 #active a {
@@ -594,7 +609,7 @@ footer h3 {
 .logowhite {
 	color: white;
 	display: inline;
-	padding-right: 0.5em;
+	padding-right: 0.5rem;
 	font-family: Proxima Nova;
 }
 
@@ -608,11 +623,11 @@ footer h3 {
 .dropbtn {
 	background-color: #3e8e41;
 	color: white;
-	height: 3em;
-	padding: 1em;
-	font-size: 1em;
+	height: 3rem;
+	padding: 1rem;
+	font-size: 1rem;
 	cursor: pointer;
-	min-width: 15em;
+	min-width: 15rem;
 	border: 0px;
 }
 
@@ -629,18 +644,18 @@ footer h3 {
 	background-color: #f9f9f9;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	min-width: 15em;
+	min-width: 15rem;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
 	color: white;
 	width: inherit;
-	padding: 1em;
+	padding: 1rem;
 	background: #4eb151;
 	text-decoration: none;
 	display: block;	
-	border-top: black solid 0.1em;;
+	border-top: black solid 0.1rem;;
 }
 
 /* Change color of dropdown links on hover */
@@ -692,14 +707,15 @@ footer h3 {
 	z-index: 1;
 }
 
-@media only screen and (max-width: 60em) { 
-    /* ruleset for >= 60em */
+@media only screen and (max-width: 60rem) { 
+    /* ruleset for <= 60rem */
+
 	#wrapper {
 		width: 100%;
 	}
 
 	header h1 {
-		font-size: 2.5em;
+		font-size: 2.5rem;
 	}
 
 	nav {
@@ -713,13 +729,17 @@ footer h3 {
 	}
 
 	.dropbtn {
-		font-size: 1em;
+		font-size: 1rem;
 		width: 100%;
 		margin-top: 1px;
 	}
 
 	.dropdown-content {
-		font-size: 1em;
+		font-size: 1rem;
 		width: 100%;
+	}
+
+	#main {
+		width: inherit;
 	}
 }
