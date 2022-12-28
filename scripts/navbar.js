@@ -10,7 +10,7 @@ class Navbar extends HTMLElement {
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Articles</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Link 1</a>
+                        <a href="https://spectrefinance.org/pages/monthly-picks/january2023.html">Why The Recession is Good</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
